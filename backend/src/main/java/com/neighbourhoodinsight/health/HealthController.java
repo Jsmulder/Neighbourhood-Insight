@@ -1,0 +1,24 @@
+
+package com.neighbourhoodinsight.health;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/api/health")
+public class HealthController {
+
+    @GetMapping
+    public HealthResponse checkHealth() {
+        return new HealthResponse(
+                "UP",
+                "Neighbourhood Insight"
+        );
+    }
+
+    public record HealthResponse(
+            String status,
+            String application
+    ) {}
+}
