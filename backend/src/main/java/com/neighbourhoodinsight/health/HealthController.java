@@ -1,4 +1,3 @@
-
 package com.neighbourhoodinsight.health;
 
 import org.springframework.web.bind.annotation.GetMapping;
