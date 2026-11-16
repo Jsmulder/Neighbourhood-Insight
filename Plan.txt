@@ -1,0 +1,77 @@
+Week 1 – Project setup and research
+- Create your GitHub repository.
+- Set up Spring Boot and React.
+- Configure PostgreSQL + PostGIS using Docker.
+- Explore the CBS and PDOK datasets.
+- Import Groningen neighbourhood boundaries.
+Milestone: geographic data in your database
+
+
+
+Week 2 – Backend fundamentals
+- Create neighbourhood and amenity entities.
+- Implement repositories and services.
+- Create REST endpoints.
+- Return neighbourhood data as GeoJSON.
+- Document APIs using Swagger.
+Milestone: working REST API
+
+
+
+Week 3 – GIS functionality
+- Integrate JTS.
+- Implement spatial intersections.
+- Implement distance calculations.
+- Create spatial indexes.
+- Test geographic queries.
+Milestone: working GIS engine
+
+
+
+Week 4 – Data ingestion
+- Import OpenStreetMap amenities.
+- Categorise facilities.
+- Connect CBS neighbourhood statistics.
+- Create a repeatable import process.
+- Store dataset provenance and versions.
+Milestone: realistic Dutch geographic data
+
+
+
+Week 5 – Frontend and maps
+- Build the React application.
+- Integrate Leaflet.
+- Display neighbourhood polygons.
+- Add selectable neighbourhoods.
+- Add amenity markers and filters.
+Milestone: interactive GIS application
+
+
+
+Week 6 – Analysis and comparison
+- Implement the scoring algorithm.
+- Create score visualisations.
+- Build neighbourhood comparisons.
+- Add adjustable scoring weights.
+Milestone: complete core functionality
+
+
+
+Week 7 – Testing and quality
+- Write JUnit tests.
+- Add integration tests using Testcontainers.
+- Test spatial query edge cases.
+- Handle invalid requests and missing data.
+- Improve performance.
+Milestone: reliable application
+
+
+
+Week 8 – Deployment and portfolio
+- Containerise the application.
+- Configure GitHub Actions.
+- Deploy the application.
+- Write a detailed README.
+- Add architecture diagrams and screenshots.
+- Record a short demo.
+Milestone: public portfolio project
